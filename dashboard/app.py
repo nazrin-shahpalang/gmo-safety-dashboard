@@ -6,6 +6,7 @@ import pandas as pd
 df = pd.read_csv('../data/gmo_dataset_clean.csv')
 
 app = dash.Dash(__name__)
+server = app.server
 
 country_counts = df.groupby('primary_country').size().reset_index(name='gmo_count')
 country_risk = df.groupby('primary_country')['risk_score'].mean().reset_index()
