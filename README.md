@@ -24,7 +24,6 @@ gmo-safety-dashboard/
 ├── notebooks/      # Jupyter notebooks
 
 └── assets/         # Screenshots
-## Screenshots
 
 ## Screenshots
 
