@@ -47,6 +47,8 @@ Open `http://127.0.0.1:8050/` in your browser.
 
 ### R Analysis
 Open `analysis/gmo_analysis.Rmd` in RStudio and click **Knit**.
+## Status
+✅ Live — [View Dashboard](https://gmo-safety-dashboard.onrender.com)
 
 ## Author
 **Nazrin Shahpalangova** — Biology/Genetics (BSc, Baku State University)  
