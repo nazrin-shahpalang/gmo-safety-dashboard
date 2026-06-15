@@ -1,0 +1,64 @@
+---
+title: "GMO Safety Statistical Analysis"
+author: "Nazrin Shahpalangova"
+date: "2026-06-15"
+output: html_document
+---
+
+## Introduction
+
+This report presents a statistical analysis of GMO product safety data, including risk score distributions and ANOVA tests across crop categories.
+
+## Load Data
+
+```{r setup, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(dplyr)
+
+df <- read_csv("C:/Users/SARN/gmo-safety-dashboard/data/gmo_dataset_clean.csv")
+head(df)
+```
+
+## Dataset Overview
+
+```{r overview}
+cat("Total GMO products:", nrow(df), "\n")
+cat("Crop types:", length(unique(df$crop_type)), "\n")
+summary(df$risk_score)
+```
+
+## ANOVA Analysis
+
+```{r anova}
+anova_result <- aov(risk_score ~ crop_type, data = df)
+summary(anova_result)
+```
+
+**Result:** p = 3.63e-05 — Risk scores differ significantly across crop types.
+
+## Risk Score by Crop Type
+
+```{r boxplot, fig.width=10, fig.height=6}
+ggplot(df, aes(x = crop_type, y = risk_score, fill = crop_type)) +
+  geom_boxplot() +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "none") +
+  labs(title = "Risk Score Distribution by Crop Type",
+       x = "Crop Type", y = "Risk Score")
+```
+
+## Approval Timeline
+
+```{r scatter, fig.width=10, fig.height=6}
+ggplot(df, aes(x = approval_year, y = risk_score, color = crop_type)) +
+  geom_point(size = 3) +
+  theme_minimal() +
+  labs(title = "Approval Year vs Risk Score",
+       x = "Approval Year", y = "Risk Score")
+```
+
+## Conclusion
+
+ANOVA analysis confirms statistically significant differences in risk scores across GMO crop categories (p < 0.001). Animal-based GMOs show the highest risk scores, while Apple and Potato varieties show the lowest.
