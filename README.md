@@ -26,9 +26,14 @@ gmo-safety-dashboard/
 └── assets/         # Screenshots
 ## Screenshots
 
-![Dashboard](assets/Screenshot%202026-06-15%20131903.png)
+## Screenshots
+
+![Bar Chart](assets/Screenshot%202026-06-15%20131903.png)
 ![Scatter Plot](assets/Screenshot%202026-06-15%20131927.png)
 ![Data Table](assets/Screenshot%202026-06-15%20131958.png)
+![Dashboard Filter](assets/Screenshot%202026-06-15%20134624.png)
+![Scatter New](assets/Screenshot%202026-06-15%20134646.png)
+![World Map](assets/Screenshot%202026-06-15%20135945.png)
 
 ## How to Run
 
