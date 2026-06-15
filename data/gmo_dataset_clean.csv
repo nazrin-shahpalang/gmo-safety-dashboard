@@ -1,21 +1,21 @@
-gmo_name,crop_type,use_category,approval_status,approval_year,risk_score,approved_regions
-MON 810 Maize,Maize,Agricultural,Approved,1998,2.1,"EU, USA, Canada"
-Bt11 Maize,Maize,Agricultural,Approved,1998,2.3,"EU, USA"
-GTS 40-3-2 Soybean,Soybean,Agricultural,Approved,1996,1.8,"USA, Canada, EU"
-MON 40-3-2 Soybean,Soybean,Agricultural,Approved,1997,1.9,"USA, Brazil"
-GT73 Rapeseed,Rapeseed,Agricultural,Approved,1997,2.0,"EU, Canada"
-MON 863 Maize,Maize,Agricultural,Approved,2003,2.4,"USA, Canada"
-MON 89788 Soybean,Soybean,Agricultural,Approved,2007,1.7,"USA, Brazil, Argentina"
-DAS-44406-6 Soybean,Soybean,Agricultural,Approved,2012,2.2,"USA, Canada"
-DP-305423 Soybean,Soybean,Agricultural,Approved,2009,1.9,USA
-MON 87701 Soybean,Soybean,Agricultural,Approved,2010,2.0,"USA, Brazil"
-ACS-BNØØ4 Rapeseed,Rapeseed,Agricultural,Approved,2002,2.1,EU
-MON 87460 Maize,Maize,Agricultural,Approved,2011,2.3,"USA, Canada"
-FLEXmi Cotton,Cotton,Agricultural,Pending,2020,1.5,USA
-MON 531 Cotton,Cotton,Agricultural,Approved,1995,1.8,"USA, EU, Brazil"
-Golden Rice GR2E,Rice,Medical,Approved,2021,2.6,Philippines
-AquAdvantage Salmon,Animal,Food,Approved,2015,3.1,"USA, Canada"
-Innate Potato,Potato,Food,Approved,2014,1.4,USA
-Arctic Apple,Apple,Food,Approved,2015,1.3,"USA, Canada"
-MON 87427 Maize,Maize,Agricultural,Pending,2019,2.0,USA
-SU Canola,Rapeseed,Agricultural,Approved,2000,1.9,"Canada, Australia"
+gmo_name,crop_type,use_category,approval_status,approval_year,risk_score,approved_regions,primary_country
+MON 810 Maize,Maize,Agricultural,Approved,1998,2.1,"EU, USA, Canada",United States
+Bt11 Maize,Maize,Agricultural,Approved,1998,2.3,"EU, USA",United States
+GTS 40-3-2 Soybean,Soybean,Agricultural,Approved,1996,1.8,"USA, Canada, EU",United States
+MON 40-3-2 Soybean,Soybean,Agricultural,Approved,1997,1.9,"USA, Brazil",United States
+GT73 Rapeseed,Rapeseed,Agricultural,Approved,1997,2.0,"EU, Canada",Canada
+MON 863 Maize,Maize,Agricultural,Approved,2003,2.4,"USA, Canada",United States
+MON 89788 Soybean,Soybean,Agricultural,Approved,2007,1.7,"USA, Brazil, Argentina",United States
+DAS-44406-6 Soybean,Soybean,Agricultural,Approved,2012,2.2,"USA, Canada",United States
+DP-305423 Soybean,Soybean,Agricultural,Approved,2009,1.9,USA,United States
+MON 87701 Soybean,Soybean,Agricultural,Approved,2010,2.0,"USA, Brazil",United States
+ACS-BNØØ4 Rapeseed,Rapeseed,Agricultural,Approved,2002,2.1,EU,Germany
+MON 87460 Maize,Maize,Agricultural,Approved,2011,2.3,"USA, Canada",United States
+FLEXmi Cotton,Cotton,Agricultural,Pending,2020,1.5,USA,United States
+MON 531 Cotton,Cotton,Agricultural,Approved,1995,1.8,"USA, EU, Brazil",United States
+Golden Rice GR2E,Rice,Medical,Approved,2021,2.6,Philippines,Philippines
+AquAdvantage Salmon,Animal,Food,Approved,2015,3.1,"USA, Canada",United States
+Innate Potato,Potato,Food,Approved,2014,1.4,USA,United States
+Arctic Apple,Apple,Food,Approved,2015,1.3,"USA, Canada",United States
+MON 87427 Maize,Maize,Agricultural,Pending,2019,2.0,USA,United States
+SU Canola,Rapeseed,Agricultural,Approved,2000,1.9,"Canada, Australia",Canada

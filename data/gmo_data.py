@@ -63,10 +63,18 @@ data = {
         'USA', 'USA, EU, Brazil', 'Philippines',
         'USA, Canada', 'USA', 'USA, Canada',
         'USA', 'Canada, Australia'
+    ],
+    'primary_country': [
+        'United States', 'United States', 'United States',
+        'United States', 'Canada', 'United States',
+        'United States', 'United States', 'United States',
+        'United States', 'Germany', 'United States',
+        'United States', 'United States', 'Philippines',
+        'United States', 'United States', 'United States',
+        'United States', 'Canada'
     ]
 }
 
 df = pd.DataFrame(data)
 df.to_csv('gmo_dataset.csv', index=False)
 print(f"Dataset yaradıldı! {len(df)} məhsul.")
-print(df['crop_type'].value_counts())
