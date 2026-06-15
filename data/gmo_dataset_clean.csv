@@ -1,0 +1,11 @@
+gmo_name,crop_type,use_category,approval_status,approval_year,risk_score,approved_regions
+MON 810 Maize,Maize,Agricultural,Approved,1998,2.1,"EU, USA, Canada"
+Bt11 Maize,Maize,Agricultural,Approved,1998,2.3,"EU, USA"
+GTS 40-3-2 Soybean,Soybean,Agricultural,Approved,1996,1.8,"USA, Canada, EU"
+MON 40-3-2 Soybean,Soybean,Agricultural,Approved,1997,1.9,"USA, Brazil"
+GT73 Rapeseed,Rapeseed,Agricultural,Approved,1997,2.0,"EU, Canada"
+MON 863 Maize,Maize,Agricultural,Approved,2003,2.4,"USA, Canada"
+MON 89788 Soybean,Soybean,Agricultural,Approved,2007,1.7,"USA, Brazil, Argentina"
+DAS-44406-6 Soybean,Soybean,Agricultural,Approved,2012,2.2,"USA, Canada"
+DP-305423 Soybean,Soybean,Agricultural,Approved,2009,1.9,USA
+MON 87701 Soybean,Soybean,Agricultural,Approved,2010,2.0,"USA, Brazil"
